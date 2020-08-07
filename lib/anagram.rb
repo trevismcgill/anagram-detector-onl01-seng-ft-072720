@@ -12,7 +12,7 @@ end
 
 def match(array)
   array.select do |word|
-    binding.pry
+    # binding.pry
     (@word.split("").sort) == (word.split("").sort)
   end
 end
